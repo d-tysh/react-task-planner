@@ -3,7 +3,7 @@ import { AppBarWrapper } from "./AppBar.styled";
 import { StatusFilter } from "components/StatusFilter/StatusFilter";
 import { Button } from "components/Button/Button";
 import { useDispatch } from "react-redux";
-import { deleteAllCompleted } from "redux/actions";
+import { deleteAllCompleted } from "redux/tasksSlice";
 
 export const AppBar = () => {
     const dispatch = useDispatch();
